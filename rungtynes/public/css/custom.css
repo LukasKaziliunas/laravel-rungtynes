@@ -1,0 +1,197 @@
+body{
+    
+    background-color: darkslategrey;
+}
+
+ul, li {
+	margin: 0px;
+	padding: 0px;
+}
+
+p {
+    display: block;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+#container {
+    /*display: flex;*/
+    background-color: white;
+    width: 800px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header{
+    width: auto;
+    height: 100px;
+    background-color: lightgray;
+}
+
+#slogan{
+    padding-left: 35px;
+    padding-top: 25px;
+    
+}
+
+#meniu{
+    display: flex;
+    flex-direction: row-reverse;
+    width: auto;
+    height: 60px;
+    background-color: #1b1f23;
+    
+}
+
+#meniu li {
+   float: right;
+   list-style: none;
+   margin: 12px 12px 12px 5px; 
+   padding-top: 8px;
+}
+
+#meniu li a {
+    text-decoration: none; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#middle{
+    display: flex;
+    width: auto;
+    height: auto;
+    min-height: 500px;
+    background-color:#2d3844;
+}
+
+#sidemeniu{
+    width: 151px;
+    height: auto;
+    min-height: 500px;
+    float: left;
+    background-color: #1b1f23;
+}
+
+#sidemeniu a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#news{
+    color : #929a9e;
+}
+
+#contact{
+    color : #929a9e;
+}
+
+#about{
+    color : #929a9e;
+}
+
+.button{
+    width: 149px;
+    height: 50px;
+    background-color :#49525c;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+#lastbtn {
+    border-bottom: 1px solid black;
+}
+
+.pavadinimas{
+    padding-top: 15px;
+    padding-left: 60px;
+}
+
+.pavadinimas a {
+    text-decoration: none;
+}
+
+#content{
+    
+    width: 649px;
+    height: auto;
+    float: right;
+    
+}
+
+#footer{
+    width: auto;
+    height: 40px;
+    background-color: lightgray;
+}
+
+.rungtynes{
+    /*width: 600px;*/
+    width: auto;
+    height: 70px;
+    background-color: white;
+    margin-top: 0px;
+    margin-left: 24px;
+    margin-right: 25px;
+    border: 1px solid darkgray;
+}
+
+.data {
+    background-color: darkgray;
+}
+
+.rungtyniu_duom{
+    width: 598px;
+    
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.laikas{
+    background-color: white;
+    float: left;
+    width: 80px;
+    height: 20px;
+    margin: 5px 10px;
+}
+
+.komandos{
+        
+        background-color:white;
+        float: right;
+        width: auto;
+        height: 30px;
+        /*margin: 5px 50px 5px 0px;*/
+}
+
+.komanda1{
+    background-color: white;
+    float: left;
+    width: 170px;
+    height: 30px;
+    text-align: center;
+}
+
+.komanda2{
+    background-color:white;
+    float: right;
+    width: 170px;
+    height: 30px;
+    text-align: center;
+
+}
+
+.dash {
+    display:inline-block;
+    text-align: center;
+    width: 60px;
+    height: 30px;
+   
+}
